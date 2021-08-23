@@ -222,7 +222,7 @@ brokerClientTlsEnabled=true
 brokerClientAuthenticationPlugin=org.apache.pulsar.client.impl.auth.AuthenticationToken
 brokerClientAuthenticationParameters={"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0LXVzZXIifQ.9OHgE9ZUDeBTZs7nSMEFIuGNEX18FLR3qvy8mqxSxXw"}
 # Or, alternatively, read token from file
-# brokerClientAuthenticationParameters={"file":"///path/to/proxy-token.txt"}
+# brokerClientAuthenticationParameters=file:///path/to/proxy-token.txt
 brokerClientTrustCertsFilePath=/path/my-ca/certs/ca.cert.pem
 
 # If this flag is set then the broker authenticates the original Auth data
@@ -255,7 +255,7 @@ tokenSecretKey=file:///path/to/secret.key
 brokerClientAuthenticationPlugin=org.apache.pulsar.client.impl.auth.AuthenticationToken
 brokerClientAuthenticationParameters={"token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0LXVzZXIifQ.9OHgE9ZUDeBTZs7nSMEFIuGNEX18FLR3qvy8mqxSxXw"}
 # Or, alternatively, read token from file
-# brokerClientAuthenticationParameters={"file":"///path/to/proxy-token.txt"}
+# brokerClientAuthenticationParameters=file:///path/to/proxy-token.txt
 
 # Whether client authorization credentials are forwared to the broker for re-authorization.
 # Authentication must be enabled via authenticationEnabled=true for this to take effect.
