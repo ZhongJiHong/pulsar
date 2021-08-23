@@ -214,7 +214,7 @@ superUserRoles=admin
 
 # Enable KeyStore type
 tlsEnabledWithKeyStore=true
-requireTrustedClientCertOnConnect=true
+tlsRequireTrustedClientCertOnConnect=true
 
 # key store
 tlsKeyStoreType=JKS
